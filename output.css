@@ -595,6 +595,8 @@ video {
   height: auto;
 }
 
+@import './typography.css';
+
 .container {
   width: 100%;
 }

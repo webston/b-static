@@ -1,5 +1,7 @@
 @tailwind base;
 
+@import './typography.css';
+
 @tailwind components;
 
 @tailwind utilities;
