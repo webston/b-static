@@ -595,6 +595,103 @@ video {
   height: auto;
 }
 
+body, p, li {
+  color: #222;
+}
+
+h1, h2, h3, h4, h5 {
+  color: #222;
+}
+
+h4 {
+  text-transform: uppercase;
+  font-family: trade-gothic-next-condensed, sans-serif;
+  font-weight: 700;
+  letter-spacing: 1px;
+  font-size: 1.375rem;
+}
+
+.lp-privacy-container {
+  top: auto !important;
+  bottom: 0 !important;
+  background: white !important;
+  box-shadow: 0 2px 15px 0 rgba(0, 0, 0, 0.4) !important;
+}
+
+.flex .column {
+    padding: 0 30px;
+  }
+
+.transform-translate-y-1\/2 {
+  transform: translateY(-50%);
+}
+
+.header .logo img {
+      width: 123px;
+    }
+
+.footer {
+  padding-top: 121px;
+  padding-bottom: 141px;
+}
+
+.footer h4 {
+    margin-bottom: 7px;
+  }
+
+.footer p {
+    font-size: 0.875rem;
+    font-family: trade-gothic-next, sans-serif;
+    line-height: 1.57;
+  }
+
+.footer .contact-info {
+    margin-top:  60px;
+  }
+
+.footer .contact-info a {
+      font-family: trade-gothic-next-condensed, sans-serif;
+      color: #4d7373;
+      font-weight: 700;
+      font-size: 1.375rem;
+    }
+
+.footer .contact-info > div {
+      float: left;
+      width: 100%;
+    }
+
+.footer .contact-info > div:not(:last-child) {
+        margin-bottom: 25px;
+      }
+
+.footer .contact-info > div .icon {
+        float: left;
+        margin-right: 23px;
+        width: 30px;
+        text-align: center;
+      }
+
+.footer .contact-info > div .icon img {
+          display: inline-block;
+        }
+
+.footer .contact-info > div div:not('.icon') {
+        float: left;
+      }
+
+.footer .contact-info > div.tel .icon {
+          margin-top: 4px;
+        }
+
+.footer .contact-info > div.mail .icon {
+          margin-top: 9px;
+        }
+
+.footer .footer-logo {
+    margin-top: 50px;
+  }
+
 .container {
   width: 100%;
 }
@@ -3331,6 +3428,10 @@ video {
 
 .clear-both {
   clear: both;
+}
+
+.font-titles {
+  font-family: clarendon-urw, serif;
 }
 
 .font-body-condensed {
@@ -15510,6 +15611,10 @@ video {
 
   .sm\:clear-both {
     clear: both;
+  }
+
+  .sm\:font-titles {
+    font-family: clarendon-urw, serif;
   }
 
   .sm\:font-body-condensed {
@@ -27692,6 +27797,10 @@ video {
     clear: both;
   }
 
+  .md\:font-titles {
+    font-family: clarendon-urw, serif;
+  }
+
   .md\:font-body-condensed {
     font-family: trade-gothic-next-condensed, sans-serif;
   }
@@ -39870,6 +39979,10 @@ video {
 
   .lg\:clear-both {
     clear: both;
+  }
+
+  .lg\:font-titles {
+    font-family: clarendon-urw, serif;
   }
 
   .lg\:font-body-condensed {
@@ -52052,6 +52165,10 @@ video {
     clear: both;
   }
 
+  .xl\:font-titles {
+    font-family: clarendon-urw, serif;
+  }
+
   .xl\:font-body-condensed {
     font-family: trade-gothic-next-condensed, sans-serif;
   }
@@ -61520,3 +61637,4 @@ video {
     transition-duration: 1000ms;
   }
 }
+

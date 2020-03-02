@@ -5,6 +5,7 @@ module.exports = {
     	'1/2': '50%'
     },
     fontFamily: {
+    	'titles': ['clarendon-urw', 'serif'],
     	'body-condensed': ['trade-gothic-next-condensed', 'sans-serif'],
     	'body': ['trade-gothic-next', 'sans-serif'],
     },
