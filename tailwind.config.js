@@ -22,7 +22,11 @@ module.exports = {
     		'normal': '1.57'
     	},
     	colors: {
-    		'black': '#222'
+    		black: '#222',
+    		red: {
+    			300: '#fdebeb',
+    			700: '#c33c3c'
+    		}
     	}
     }
   },
