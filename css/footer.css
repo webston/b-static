@@ -18,5 +18,35 @@
 
 			font-size: 1.375rem;
 		}
+
+		> div {
+			float: left;
+			width: 100%;
+
+			&:not(:last-child) {
+				margin-bottom: 25px;
+			}
+
+			.icon {
+				float: left;
+				margin-right: 23px;
+			}
+
+			div:not('.icon') {
+				float: left;
+			}
+
+			&.tel {
+				.icon {
+					margin-top: 4px;
+				}
+			}
+
+			&.mail {
+				.icon {
+					margin-top: 9px;
+				}
+			}
+		}
 	}
 }
