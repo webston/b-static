@@ -11,12 +11,6 @@ module.exports = {
     letterSpacing: {
     	'1px': '1px'
     },
-    colors: {
-    	red: {
-    		light: '#fdebeb',
-    		dark: '#c33c3c'
-    	}
-    },
     extend: {
     	lineHeight: {
     		'normal': '1.57'
@@ -26,6 +20,9 @@ module.exports = {
     		red: {
     			300: '#fdebeb',
     			700: '#c33c3c'
+    		},
+	    	green: {
+    			800: '#4d7373'
     		}
     	}
     }

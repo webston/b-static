@@ -9,4 +9,14 @@
 	p {
 		@apply text-sm font-body leading-normal;
 	}
+
+	.contact-info {
+		margin-top:  60px;
+
+		a {
+			@apply font-body-condensed text-green-800 font-bold;
+
+			font-size: 1.375rem;
+		}
+	}
 }
