@@ -8,6 +8,12 @@ h4 {
 	transform: translateY(-50%);
 }
 
+.header {
+	.logo {
+		width: 123px;
+	}
+}
+
 @tailwind components;
 
 @tailwind utilities;
