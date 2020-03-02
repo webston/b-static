@@ -2,6 +2,10 @@
 	padding-top: 121px;
 	padding-bottom: 141px;
 
+	h4 {
+		margin-bottom: 7px;
+	}
+
 	p {
 		@apply text-sm font-body leading-normal;
 	}
