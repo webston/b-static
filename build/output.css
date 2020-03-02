@@ -635,6 +635,13 @@ h4 {
   padding-bottom: 141px;
 }
 
+.footer h2 {
+    margin-bottom: 27px;
+    font-size: 3rem;
+    color: #c33c3c;
+    font-family: clarendon-urw, serif;
+  }
+
 .footer h4 {
     margin-bottom: 7px;
   }
@@ -662,12 +669,12 @@ h4 {
     }
 
 .footer .contact-info > div:not(:last-child) {
-        margin-bottom: 25px;
+        margin-bottom: 12px;
       }
 
 .footer .contact-info > div .icon {
         float: left;
-        margin-right: 23px;
+        margin-right: 25px;
         width: 30px;
         text-align: center;
       }
@@ -685,12 +692,16 @@ h4 {
         }
 
 .footer .contact-info > div.mail .icon {
-          margin-top: 9px;
+          margin-top: 7px;
         }
 
 .footer .footer-logo {
     margin-top: 50px;
   }
+
+.footer .footer-logo img {
+      width: 197px;
+    }
 
 .container {
   width: 100%;
