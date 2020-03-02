@@ -595,7 +595,9 @@ video {
   height: auto;
 }
 
-@import './typography.css';
+h4 {
+  font-size: 0.875rem;
+}
 
 .container {
   width: 100%;

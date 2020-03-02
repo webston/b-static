@@ -3,6 +3,7 @@ module.exports = {
     top: {
       '1/2': '50%',
     },
+
   },
   variants: {},
   plugins: [],

@@ -1,6 +1,8 @@
 @tailwind base;
 
-@import './typography.css';
+h4 {
+    @apply text-sm;
+}
 
 @tailwind components;
 
