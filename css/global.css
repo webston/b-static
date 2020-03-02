@@ -1,6 +1,16 @@
 .lp-privacy-container {
-	top: auto;
-	bottom: 0;
-	background: white;
-	box-shadow: 0 2px 15px 0 rgba(0, 0, 0, 0.4);
+	top: auto !important;
+	bottom: 0 !important;
+	background: white !important;
+	box-shadow: 0 2px 15px 0 rgba(0, 0, 0, 0.4) !important;
+}
+
+.flex {
+	.column {
+		padding: 0 30px;
+	}
+}
+
+.transform-translate-y-1\/2 {
+	transform: translateY(-50%);
 }

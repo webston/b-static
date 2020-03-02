@@ -1,13 +1,11 @@
-body {
+body, p, li {
+	@apply text-black;
+}
+
+h1, h2, h3, h4, h5 {
 	@apply text-black;
 }
 
 h4 {
-    @apply text-sm font-body-condensed font-bold tracking-1px;
-}
-
-.footer {
-	p {
-		@apply text-sm font-body leading-normal;
-	}
+    @apply uppercase font-body-condensed font-bold tracking-1px;
 }

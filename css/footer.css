@@ -1,4 +1,8 @@
 .footer {
 	padding-top: 121px;
 	padding-bottom: 141px;
+
+	p {
+		@apply text-sm font-body leading-normal;
+	}
 }

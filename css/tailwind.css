@@ -5,10 +5,6 @@
 
 @tailwind base;
 
-.transform-translate-y-1\/2 {
-	transform: translateY(-50%);
-}
-
 
 @tailwind components;
 
