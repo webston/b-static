@@ -30,6 +30,12 @@
 			.icon {
 				float: left;
 				margin-right: 23px;
+				width: 30px;
+				text-align: center;
+
+				img {
+					display: inline-block;
+				}
 			}
 
 			div:not('.icon') {
@@ -48,5 +54,9 @@
 				}
 			}
 		}
+	}
+
+	.footer-logo {
+		margin-top: 50px;
 	}
 }

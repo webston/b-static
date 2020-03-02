@@ -1,10 +1,9 @@
+@tailwind base;
+
 @import './typography.css';
 @import './global.css';
 @import './header.css';
 @import './footer.css';
-
-@tailwind base;
-
 
 @tailwind components;
 
