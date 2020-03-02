@@ -1,20 +1,13 @@
-@tailwind base;
+@import './typography.css';
+@import './header.css';
+@import './footer.css';
 
-h4 {
-    @apply text-sm font-body font-bold tracking-1px;
-}
+@tailwind base;
 
 .transform-translate-y-1\/2 {
 	transform: translateY(-50%);
 }
 
-.header {
-	.logo {
-		img {
-			width: 123px;
-		}
-	}
-}
 
 @tailwind components;
 

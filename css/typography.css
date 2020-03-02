@@ -1,0 +1,13 @@
+body {
+	@apply text-black;
+}
+
+h4 {
+    @apply text-sm font-body-condensed font-bold tracking-1px;
+}
+
+.footer {
+	p {
+		@apply text-sm font-body leading-normal;
+	}
+}

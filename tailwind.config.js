@@ -5,10 +5,25 @@ module.exports = {
     	'1/2': '50%'
     },
     fontFamily: {
-    	'body': ['trade-gothic-next-condensed', 'sans-serif']
+    	'body-condensed': ['trade-gothic-next-condensed', 'sans-serif'],
+    	'body': ['trade-gothic-next', 'sans-serif'],
     },
     letterSpacing: {
     	'1px': '1px'
+    },
+    colors: {
+    	red: {
+    		light: '#fdebeb',
+    		dark: '#c33c3c'
+    	}
+    },
+    extend: {
+    	lineHeight: {
+    		'normal': '1.57'
+    	},
+    	colors: {
+    		'black': '#222'
+    	}
     }
   },
   variants: {},
