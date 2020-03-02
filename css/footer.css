@@ -5,7 +5,7 @@
 	h2 {
 		margin-bottom: 27px;
 
-		@apply text-5xl text-red-700 font-titles;
+		@apply text-5xl text-red-700 font-titles font-light;
 	}
 
 	h4 {
