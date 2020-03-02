@@ -6,6 +6,9 @@ module.exports = {
     },
     fontFamily: {
     	'body': ['trade-gothic-next-condensed', 'sans-serif']
+    },
+    letterSpacing: {
+    	'1px': '1px'
     }
   },
   variants: {},

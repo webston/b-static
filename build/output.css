@@ -599,15 +599,16 @@ h4 {
   font-size: 0.875rem;
   font-family: trade-gothic-next-condensed, sans-serif;
   font-weight: 700;
+  letter-spacing: 1px;
 }
 
 .transform-translate-y-1\/2 {
   transform: translateY(-50%);
 }
 
-.header .logo {
-    width: 123px;
-  }
+.header .logo img {
+      width: 123px;
+    }
 
 .container {
   width: 100%;
@@ -11200,28 +11201,8 @@ h4 {
   -moz-osx-font-smoothing: auto;
 }
 
-.tracking-tighter {
-  letter-spacing: -0.05em;
-}
-
-.tracking-tight {
-  letter-spacing: -0.025em;
-}
-
-.tracking-normal {
-  letter-spacing: 0;
-}
-
-.tracking-wide {
-  letter-spacing: 0.025em;
-}
-
-.tracking-wider {
-  letter-spacing: 0.05em;
-}
-
-.tracking-widest {
-  letter-spacing: 0.1em;
+.tracking-1px {
+  letter-spacing: 1px;
 }
 
 .select-none {
@@ -24535,28 +24516,8 @@ h4 {
     -moz-osx-font-smoothing: auto;
   }
 
-  .sm\:tracking-tighter {
-    letter-spacing: -0.05em;
-  }
-
-  .sm\:tracking-tight {
-    letter-spacing: -0.025em;
-  }
-
-  .sm\:tracking-normal {
-    letter-spacing: 0;
-  }
-
-  .sm\:tracking-wide {
-    letter-spacing: 0.025em;
-  }
-
-  .sm\:tracking-wider {
-    letter-spacing: 0.05em;
-  }
-
-  .sm\:tracking-widest {
-    letter-spacing: 0.1em;
+  .sm\:tracking-1px {
+    letter-spacing: 1px;
   }
 
   .sm\:select-none {
@@ -37871,28 +37832,8 @@ h4 {
     -moz-osx-font-smoothing: auto;
   }
 
-  .md\:tracking-tighter {
-    letter-spacing: -0.05em;
-  }
-
-  .md\:tracking-tight {
-    letter-spacing: -0.025em;
-  }
-
-  .md\:tracking-normal {
-    letter-spacing: 0;
-  }
-
-  .md\:tracking-wide {
-    letter-spacing: 0.025em;
-  }
-
-  .md\:tracking-wider {
-    letter-spacing: 0.05em;
-  }
-
-  .md\:tracking-widest {
-    letter-spacing: 0.1em;
+  .md\:tracking-1px {
+    letter-spacing: 1px;
   }
 
   .md\:select-none {
@@ -51207,28 +51148,8 @@ h4 {
     -moz-osx-font-smoothing: auto;
   }
 
-  .lg\:tracking-tighter {
-    letter-spacing: -0.05em;
-  }
-
-  .lg\:tracking-tight {
-    letter-spacing: -0.025em;
-  }
-
-  .lg\:tracking-normal {
-    letter-spacing: 0;
-  }
-
-  .lg\:tracking-wide {
-    letter-spacing: 0.025em;
-  }
-
-  .lg\:tracking-wider {
-    letter-spacing: 0.05em;
-  }
-
-  .lg\:tracking-widest {
-    letter-spacing: 0.1em;
+  .lg\:tracking-1px {
+    letter-spacing: 1px;
   }
 
   .lg\:select-none {
@@ -64543,28 +64464,8 @@ h4 {
     -moz-osx-font-smoothing: auto;
   }
 
-  .xl\:tracking-tighter {
-    letter-spacing: -0.05em;
-  }
-
-  .xl\:tracking-tight {
-    letter-spacing: -0.025em;
-  }
-
-  .xl\:tracking-normal {
-    letter-spacing: 0;
-  }
-
-  .xl\:tracking-wide {
-    letter-spacing: 0.025em;
-  }
-
-  .xl\:tracking-wider {
-    letter-spacing: 0.05em;
-  }
-
-  .xl\:tracking-widest {
-    letter-spacing: 0.1em;
+  .xl\:tracking-1px {
+    letter-spacing: 1px;
   }
 
   .xl\:select-none {

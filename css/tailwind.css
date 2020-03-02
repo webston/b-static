@@ -1,7 +1,7 @@
 @tailwind base;
 
 h4 {
-    @apply text-sm font-body font-bold;
+    @apply text-sm font-body font-bold tracking-1px;
 }
 
 .transform-translate-y-1\/2 {
@@ -10,7 +10,9 @@ h4 {
 
 .header {
 	.logo {
-		width: 123px;
+		img {
+			width: 123px;
+		}
 	}
 }
 
