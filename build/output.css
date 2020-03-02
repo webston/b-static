@@ -602,7 +602,7 @@ h4 {
 }
 
 .transform-translate-y-1\/2 {
-  transform: translateY(50%);
+  transform: translateY(-50%);
 }
 
 .container {
@@ -9724,11 +9724,28 @@ h4 {
   position: sticky;
 }
 
+.inset-0 {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
 .inset-1\/2 {
   top: 50%;
   right: 50%;
   bottom: 50%;
   left: 50%;
+}
+
+.inset-y-0 {
+  top: 0;
+  bottom: 0;
+}
+
+.inset-x-0 {
+  right: 0;
+  left: 0;
 }
 
 .inset-y-1\/2 {
@@ -9739,6 +9756,22 @@ h4 {
 .inset-x-1\/2 {
   right: 50%;
   left: 50%;
+}
+
+.top-0 {
+  top: 0;
+}
+
+.right-0 {
+  right: 0;
+}
+
+.bottom-0 {
+  bottom: 0;
+}
+
+.left-0 {
+  left: 0;
 }
 
 .top-1\/2 {
@@ -23026,11 +23059,28 @@ h4 {
     position: sticky;
   }
 
+  .sm\:inset-0 {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+
   .sm\:inset-1\/2 {
     top: 50%;
     right: 50%;
     bottom: 50%;
     left: 50%;
+  }
+
+  .sm\:inset-y-0 {
+    top: 0;
+    bottom: 0;
+  }
+
+  .sm\:inset-x-0 {
+    right: 0;
+    left: 0;
   }
 
   .sm\:inset-y-1\/2 {
@@ -23041,6 +23091,22 @@ h4 {
   .sm\:inset-x-1\/2 {
     right: 50%;
     left: 50%;
+  }
+
+  .sm\:top-0 {
+    top: 0;
+  }
+
+  .sm\:right-0 {
+    right: 0;
+  }
+
+  .sm\:bottom-0 {
+    bottom: 0;
+  }
+
+  .sm\:left-0 {
+    left: 0;
   }
 
   .sm\:top-1\/2 {
@@ -36329,11 +36395,28 @@ h4 {
     position: sticky;
   }
 
+  .md\:inset-0 {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+
   .md\:inset-1\/2 {
     top: 50%;
     right: 50%;
     bottom: 50%;
     left: 50%;
+  }
+
+  .md\:inset-y-0 {
+    top: 0;
+    bottom: 0;
+  }
+
+  .md\:inset-x-0 {
+    right: 0;
+    left: 0;
   }
 
   .md\:inset-y-1\/2 {
@@ -36344,6 +36427,22 @@ h4 {
   .md\:inset-x-1\/2 {
     right: 50%;
     left: 50%;
+  }
+
+  .md\:top-0 {
+    top: 0;
+  }
+
+  .md\:right-0 {
+    right: 0;
+  }
+
+  .md\:bottom-0 {
+    bottom: 0;
+  }
+
+  .md\:left-0 {
+    left: 0;
   }
 
   .md\:top-1\/2 {
@@ -49632,11 +49731,28 @@ h4 {
     position: sticky;
   }
 
+  .lg\:inset-0 {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+
   .lg\:inset-1\/2 {
     top: 50%;
     right: 50%;
     bottom: 50%;
     left: 50%;
+  }
+
+  .lg\:inset-y-0 {
+    top: 0;
+    bottom: 0;
+  }
+
+  .lg\:inset-x-0 {
+    right: 0;
+    left: 0;
   }
 
   .lg\:inset-y-1\/2 {
@@ -49647,6 +49763,22 @@ h4 {
   .lg\:inset-x-1\/2 {
     right: 50%;
     left: 50%;
+  }
+
+  .lg\:top-0 {
+    top: 0;
+  }
+
+  .lg\:right-0 {
+    right: 0;
+  }
+
+  .lg\:bottom-0 {
+    bottom: 0;
+  }
+
+  .lg\:left-0 {
+    left: 0;
   }
 
   .lg\:top-1\/2 {
@@ -62935,11 +63067,28 @@ h4 {
     position: sticky;
   }
 
+  .xl\:inset-0 {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+
   .xl\:inset-1\/2 {
     top: 50%;
     right: 50%;
     bottom: 50%;
     left: 50%;
+  }
+
+  .xl\:inset-y-0 {
+    top: 0;
+    bottom: 0;
+  }
+
+  .xl\:inset-x-0 {
+    right: 0;
+    left: 0;
   }
 
   .xl\:inset-y-1\/2 {
@@ -62950,6 +63099,22 @@ h4 {
   .xl\:inset-x-1\/2 {
     right: 50%;
     left: 50%;
+  }
+
+  .xl\:top-0 {
+    top: 0;
+  }
+
+  .xl\:right-0 {
+    right: 0;
+  }
+
+  .xl\:bottom-0 {
+    bottom: 0;
+  }
+
+  .xl\:left-0 {
+    left: 0;
   }
 
   .xl\:top-1\/2 {
