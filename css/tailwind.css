@@ -1,7 +1,7 @@
 @tailwind base;
 
 h4 {
-    @apply text-sm;
+    @apply text-sm font-body font-bold;
 }
 
 @tailwind components;
