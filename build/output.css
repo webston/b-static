@@ -603,12 +603,40 @@ h1, h2, h3, h4, h5 {
   color: #222;
 }
 
-h4 {
+a {
+  transition: all 0.3s;
+}
+
+h1 {
+  font-family: clarendon-urw, serif;
+  font-size: 3.125rem;
+  line-height: 1.2;
+  letter-spacing: normal;
+}
+
+h2 {
+  font-family: clarendon-urw, serif;
+  font-size: 2.125rem;
+}
+
+h3 {
   text-transform: uppercase;
   font-family: trade-gothic-next-condensed, sans-serif;
   font-weight: 700;
   letter-spacing: 1px;
   font-size: 1.375rem;
+}
+
+h6 {
+  font-family: trade-gothic-next-condensed, sans-serif;
+  font-weight: 700;
+  letter-spacing: 1px;
+  font-size:  0.875rem;
+}
+
+p {
+  font-family: trade-gothic-next, sans-serif;
+  line-height: 1.88;
 }
 
 .lp-privacy-container {
@@ -619,12 +647,49 @@ h4 {
   padding: 18px 0;
 }
 
-.flex .column {
-    padding: 0 30px;
+.column {
+  padding: 0 30px;
+}
+
+.column.extra-padding {
+    padding: 0 80px;
   }
 
 .transform-translate-y-1\/2 {
   transform: translateY(-50%);
+}
+
+.button {
+  color: #fff;
+  background-color: #c33c3c;
+  font-family: trade-gothic-next, sans-serif;
+  font-weight: 700;
+  display: inline-block;
+  border-radius: 9999px;
+  text-decoration: none;
+  padding: 18px 35px 19px;
+  transition: all 0.3s;
+  font-size: 1rem;
+}
+
+.button.white {
+    background-color: #fff;
+    color: #4d7373;
+    box-shadow: 0 2px 8px 0 rgba(34, 34, 34, 0.15);
+  }
+
+.button:hover,
+	.button:focus,
+	.button:active {
+    box-shadow: 0 2px 15px 0 rgba(34, 34, 34, 0.3);
+  }
+
+.simple-btn {
+  color: #4d7373;
+  font-family: trade-gothic-next, sans-serif;
+  font-weight: 700;
+  display: inline-block;
+  font-size: 0.9375rem;
 }
 
 .header .logo img {
@@ -643,24 +708,27 @@ h4 {
 .footer h2 {
     margin-bottom: 27px;
     color: #c33c3c;
-    font-family: clarendon-urw, serif;
     font-weight: 300;
     line-height: 1;
-    font-size: 2.2rem;
+    font-size: 2.6rem;
   }
 
-.footer h4 {
+.footer h3 {
     margin-bottom: 7px;
   }
 
 .footer p {
-    font-size: 0.875rem;
+    font-size: .875rem;
     font-family: trade-gothic-next, sans-serif;
     line-height: 1.57;
   }
 
+.footer .limited-width {
+    max-width: 450px;
+  }
+
 .footer .contact-info {
-    margin-top:  60px;
+    margin-top:  70px;
   }
 
 .footer .contact-info a {
@@ -668,6 +736,7 @@ h4 {
       color: #4d7373;
       font-weight: 700;
       font-size: 1.375rem;
+      line-height: 1.14;
     }
 
 .footer .contact-info > div {
@@ -676,7 +745,7 @@ h4 {
     }
 
 .footer .contact-info > div:not(:last-child) {
-        margin-bottom: 12px;
+        margin-bottom: 25px;
       }
 
 .footer .contact-info > div .icon {
@@ -693,10 +762,6 @@ h4 {
 .footer .contact-info > div div:not('.icon') {
         float: left;
       }
-
-.footer .contact-info > div.tel .icon {
-          margin-top: 4px;
-        }
 
 .footer .contact-info > div.mail .icon {
           margin-top: 7px;
@@ -732,9 +797,9 @@ h4 {
   }
 }
 
-@media (min-width: 1280px) {
+@media (min-width: 1200px) {
   .container {
-    max-width: 1280px;
+    max-width: 1200px;
   }
 }
 
@@ -4941,7 +5006,7 @@ h4 {
 }
 
 .max-w-screen-xl {
-  max-width: 1280px;
+  max-width: 1200px;
 }
 
 .min-h-0 {
@@ -10060,11 +10125,15 @@ h4 {
 }
 
 .text-xs {
-  font-size: 0.75rem;
+  font-size: .75rem;
 }
 
 .text-sm {
-  font-size: 0.875rem;
+  font-size: .875rem;
+}
+
+.text-tiny {
+  font-size: .875rem;
 }
 
 .text-base {
@@ -10076,7 +10145,7 @@ h4 {
 }
 
 .text-xl {
-  font-size: 1.25rem;
+  font-size: 1.375rem;
 }
 
 .text-2xl {
@@ -10088,15 +10157,19 @@ h4 {
 }
 
 .text-4xl {
-  font-size: 2.25rem;
+  font-size: 2.125rem;
 }
 
 .text-5xl {
-  font-size: 3rem;
+  font-size: 3.125rem;
 }
 
 .text-6xl {
   font-size: 4rem;
+}
+
+.text-7xl {
+  font-size: 5rem;
 }
 
 .italic {
@@ -17124,7 +17197,7 @@ h4 {
   }
 
   .sm\:max-w-screen-xl {
-    max-width: 1280px;
+    max-width: 1200px;
   }
 
   .sm\:min-h-0 {
@@ -22243,11 +22316,15 @@ h4 {
   }
 
   .sm\:text-xs {
-    font-size: 0.75rem;
+    font-size: .75rem;
   }
 
   .sm\:text-sm {
-    font-size: 0.875rem;
+    font-size: .875rem;
+  }
+
+  .sm\:text-tiny {
+    font-size: .875rem;
   }
 
   .sm\:text-base {
@@ -22259,7 +22336,7 @@ h4 {
   }
 
   .sm\:text-xl {
-    font-size: 1.25rem;
+    font-size: 1.375rem;
   }
 
   .sm\:text-2xl {
@@ -22271,15 +22348,19 @@ h4 {
   }
 
   .sm\:text-4xl {
-    font-size: 2.25rem;
+    font-size: 2.125rem;
   }
 
   .sm\:text-5xl {
-    font-size: 3rem;
+    font-size: 3.125rem;
   }
 
   .sm\:text-6xl {
     font-size: 4rem;
+  }
+
+  .sm\:text-7xl {
+    font-size: 5rem;
   }
 
   .sm\:italic {
@@ -29308,7 +29389,7 @@ h4 {
   }
 
   .md\:max-w-screen-xl {
-    max-width: 1280px;
+    max-width: 1200px;
   }
 
   .md\:min-h-0 {
@@ -34427,11 +34508,15 @@ h4 {
   }
 
   .md\:text-xs {
-    font-size: 0.75rem;
+    font-size: .75rem;
   }
 
   .md\:text-sm {
-    font-size: 0.875rem;
+    font-size: .875rem;
+  }
+
+  .md\:text-tiny {
+    font-size: .875rem;
   }
 
   .md\:text-base {
@@ -34443,7 +34528,7 @@ h4 {
   }
 
   .md\:text-xl {
-    font-size: 1.25rem;
+    font-size: 1.375rem;
   }
 
   .md\:text-2xl {
@@ -34455,15 +34540,19 @@ h4 {
   }
 
   .md\:text-4xl {
-    font-size: 2.25rem;
+    font-size: 2.125rem;
   }
 
   .md\:text-5xl {
-    font-size: 3rem;
+    font-size: 3.125rem;
   }
 
   .md\:text-6xl {
     font-size: 4rem;
+  }
+
+  .md\:text-7xl {
+    font-size: 5rem;
   }
 
   .md\:italic {
@@ -41492,7 +41581,7 @@ h4 {
   }
 
   .lg\:max-w-screen-xl {
-    max-width: 1280px;
+    max-width: 1200px;
   }
 
   .lg\:min-h-0 {
@@ -46611,11 +46700,15 @@ h4 {
   }
 
   .lg\:text-xs {
-    font-size: 0.75rem;
+    font-size: .75rem;
   }
 
   .lg\:text-sm {
-    font-size: 0.875rem;
+    font-size: .875rem;
+  }
+
+  .lg\:text-tiny {
+    font-size: .875rem;
   }
 
   .lg\:text-base {
@@ -46627,7 +46720,7 @@ h4 {
   }
 
   .lg\:text-xl {
-    font-size: 1.25rem;
+    font-size: 1.375rem;
   }
 
   .lg\:text-2xl {
@@ -46639,15 +46732,19 @@ h4 {
   }
 
   .lg\:text-4xl {
-    font-size: 2.25rem;
+    font-size: 2.125rem;
   }
 
   .lg\:text-5xl {
-    font-size: 3rem;
+    font-size: 3.125rem;
   }
 
   .lg\:text-6xl {
     font-size: 4rem;
+  }
+
+  .lg\:text-7xl {
+    font-size: 5rem;
   }
 
   .lg\:italic {
@@ -49472,7 +49569,7 @@ h4 {
   }
 }
 
-@media (min-width: 1280px) {
+@media (min-width: 1200px) {
   .xl\:sr-only {
     position: absolute;
     width: 1px;
@@ -53676,7 +53773,7 @@ h4 {
   }
 
   .xl\:max-w-screen-xl {
-    max-width: 1280px;
+    max-width: 1200px;
   }
 
   .xl\:min-h-0 {
@@ -58795,11 +58892,15 @@ h4 {
   }
 
   .xl\:text-xs {
-    font-size: 0.75rem;
+    font-size: .75rem;
   }
 
   .xl\:text-sm {
-    font-size: 0.875rem;
+    font-size: .875rem;
+  }
+
+  .xl\:text-tiny {
+    font-size: .875rem;
   }
 
   .xl\:text-base {
@@ -58811,7 +58912,7 @@ h4 {
   }
 
   .xl\:text-xl {
-    font-size: 1.25rem;
+    font-size: 1.375rem;
   }
 
   .xl\:text-2xl {
@@ -58823,15 +58924,19 @@ h4 {
   }
 
   .xl\:text-4xl {
-    font-size: 2.25rem;
+    font-size: 2.125rem;
   }
 
   .xl\:text-5xl {
-    font-size: 3rem;
+    font-size: 3.125rem;
   }
 
   .xl\:text-6xl {
     font-size: 4rem;
+  }
+
+  .xl\:text-7xl {
+    font-size: 5rem;
   }
 
   .xl\:italic {
