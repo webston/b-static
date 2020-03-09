@@ -1254,6 +1254,7 @@ p.large, li.large {
     }
 
 .footer h3 {
+    margin-top: 2px;
     margin-bottom: 7px;
   }
 
@@ -1277,7 +1278,7 @@ p.large, li.large {
 @media (min-width: 768px) {
 
 .footer .contact-info {
-      margin-top: 60px;
+      margin-top: 70px;
 
       margin-bottom: 0
   }
