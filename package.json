@@ -5,13 +5,15 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "postcss css/tailwind.css -o build/output.css"
+    "build": "postcss css/tailwind.css -o public/output.css"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "object-fit-images": "^3.2.4",
     "postcss-import": "^12.0.1",
     "postcss-nested": "^4.2.1",
+    "postcss-object-fit-images": "^1.1.2",
     "tailwindcss": "^1.2.0"
   }
 }

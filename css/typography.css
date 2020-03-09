@@ -6,8 +6,83 @@ h1, h2, h3, h4, h5 {
 	@apply text-black;
 }
 
-h4 {
+a {
+	transition: all 0.3s;
+}
+
+h1 {
+	@apply font-titles;
+
+	font-size: 2.0625rem;
+	line-height: 1.21;
+	letter-spacing: normal;
+	margin-bottom: 15px;
+
+	@screen md {
+		font-size: 3.125rem;
+		margin-bottom: 20px;
+	}
+}
+
+h2 {
+	@apply font-titles;
+
+	font-size: 1.5rem;
+	line-height: 1.25;
+	margin-bottom: 16px;
+
+	@screen md {
+		font-size: 2.125rem;
+		line-height: 1.14;
+	}
+}
+
+h3 {
     @apply uppercase font-body-condensed font-bold tracking-1px;
 
     font-size: 1.375rem;
+    margin-top: 22px;
+    margin-bottom: 20px;
+    line-height: normal;
+}
+
+h4 {
+	@apply font-body font-bold text-green-800;
+
+	line-height: normal;
+	font-size: 1.5rem;
+	margin-bottom: 7px;
+
+	@screen md {
+		margin-bottom: 12px;
+	}
+}
+
+h6 {
+	@apply font-body-condensed font-bold tracking-1px;
+
+	font-size:  0.875rem;
+}
+
+p {
+	@apply font-body;
+
+	line-height: 1.86;
+	font-size: 0.875rem;
+
+	@screen md {
+		line-height: 1.88;
+		font-size: 1rem;		
+	}	
+
+
+	&.large {
+		font-size: 1.125rem;
+		line-height: 1.39;
+
+		@screen md {
+			font-size: 1.25rem;
+			line-height: 1.75;
+		}
+	}
 }

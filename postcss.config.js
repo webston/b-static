@@ -4,5 +4,6 @@ module.exports = {
     require('tailwindcss'),
     require('postcss-nested'), // or require('postcss-nesting')
     require('autoprefixer'),
+    require('postcss-object-fit-images')
   ]
 }
