@@ -674,7 +674,7 @@ h6 {
   font-size:  0.875rem;
 }
 
-p {
+p, li {
   font-family: trade-gothic-next, sans-serif;
   line-height: 1.86;
   font-size: 0.875rem;
@@ -682,21 +682,26 @@ p {
 
 @media (min-width: 768px) {
 
-p {
+p, li {
     line-height: 1.88;
 
     font-size: 1rem
 }
   }
 
-p.large {
+p a, li a {
+    font-weight: 700;
+    color: #4d7373;
+  }
+
+p.large, li.large {
     font-size: 1.125rem;
     line-height: 1.39;
   }
 
 @media (min-width: 768px) {
 
-p.large {
+p.large, li.large {
       font-size: 1.25rem;
 
       line-height: 1.75
@@ -786,6 +791,10 @@ p.large {
   max-width: 1140px;
 }
 
+.max-w-full {
+  max-width: 2400px;
+}
+
 .transform-translate-y-1\/2 {
   transform: translateY(-50%);
 }
@@ -822,14 +831,14 @@ p.large {
 .section.section-xl {
       margin-top: 140px;
 
-      margin-bottom: 140px
+      margin-bottom: 110px
   }
     }
 
 @media (min-width: 1024px) {
 
 .img-plus-content-banner .flex {
-      height: calc(100vh - 100px)
+      min-height: calc(100vh - 100px)
   }
     }
 
@@ -898,7 +907,7 @@ p.large {
       }
 
 .img-bg-plus-content-banner {
-  height: calc(100vh - 80px);
+  min-height: calc(100vh - 80px);
 }
 
 .img-bg-plus-content-banner h1 {
@@ -957,10 +966,10 @@ p.large {
         left: 50%;
         transform: translate(-50%, -50%); */
     align-items: center;
-    height: 100%;
+    min-height: calc(100vh - 80px);
     z-index: 100;
     position: relative;
-    padding: 20px 0;
+    padding: 40px 0;
   }
 
 .img-plus-content .img-container {
