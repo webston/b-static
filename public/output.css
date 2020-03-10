@@ -645,11 +645,19 @@ h3 {
   font-family: trade-gothic-next-condensed, sans-serif;
   font-weight: 700;
   letter-spacing: 1px;
-  font-size: 1.375rem;
-  margin-top: 22px;
+  font-size: 1.125rem;
   margin-bottom: 20px;
   line-height: normal;
 }
+
+@media (min-width: 768px) {
+
+h3 {
+    font-size: 1.375rem;
+
+    margin-top: 22px
+}
+  }
 
 h4 {
   font-family: trade-gothic-next, sans-serif;
@@ -1003,7 +1011,7 @@ p.large, li.large {
     }
 
 .img-plus-content .button-wrapper .flex img {
-        height:  47px !important;
+        max-height:  47px !important;
       }
 
 .three-col-grid {
@@ -1110,6 +1118,7 @@ p.large, li.large {
     }
 
 .img-plus-content-colored .img-container img {
+      border-radius: 8px;
       /* height: calc(100% + 30px); */
       /* margin-top: -30px; */
       /* margin-bottom: -30px; */
