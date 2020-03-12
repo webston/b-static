@@ -900,7 +900,7 @@ a img {
       border-bottom: 20px solid white;
       border-right: 20px solid transparent;
       display: block;
-      content: " ";
+      content: "";
     }
 
 .img-plus-content-banner .content-container:after {
