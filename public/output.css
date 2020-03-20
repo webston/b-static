@@ -937,7 +937,7 @@ a img {
       }
 
 .img-bg-plus-content-banner {
-  min-height: calc(50vh - 150px);
+  min-height: calc(80vh - 150px);
 }
 
 @media (min-width: 768px) {
@@ -1003,10 +1003,10 @@ a img {
         left: 50%;
         transform: translate(-50%, -50%); */
     align-items: center;
-    min-height: calc(50vh - 150px);
+    min-height: calc(80vh - 150px);
     z-index: 100;
     position: relative;
-    padding: 20px 0 40px;
+    padding: 40px 0 60px;
   }
 
 @media (min-width: 768px) {
