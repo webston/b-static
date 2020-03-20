@@ -937,8 +937,15 @@ a img {
       }
 
 .img-bg-plus-content-banner {
-  min-height: calc(100vh - 150px);
+  min-height: calc(50vh - 150px);
 }
+
+@media (min-width: 768px) {
+
+.img-bg-plus-content-banner {
+    min-height: calc(100vh - 150px)
+}
+  }
 
 .img-bg-plus-content-banner h1 {
     margin-bottom: 20px;
@@ -999,13 +1006,15 @@ a img {
     min-height: calc(100vh - 150px);
     z-index: 100;
     position: relative;
-    padding: 93px 0 100px;
+    padding: 20px 0 40px;
   }
 
 @media (min-width: 768px) {
 
 .img-bg-plus-content-banner .flex {
-      padding: 40px 0 60px
+      padding: 40px 0 60px;
+
+      min-height: calc(100vh - 150px)
   }
     }
 
