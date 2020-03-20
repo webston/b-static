@@ -64,14 +64,6 @@
         width: 50% !important;
         max-width: 50%;
       }
-      .mj-column-per-55-5 {
-        width: 55.5% !important;
-        max-width: 55.5%;
-      }
-      .mj-column-per-44-5 {
-        width: 44.5% !important;
-        max-width: 44.5%;
-      }
     }
   </style>
   <style type="text/css">
@@ -106,8 +98,9 @@
       margin-bottom: 15px;
     }
 
-    .two-col-image-content p {
-      margin-bottom: 25px;
+    .two-col-image-content p,
+    .two-col-image-content-outlook p {
+      margin-bottom: 25px !important;
     }
 
     .header-logo {
@@ -176,6 +169,7 @@
       font-family: Arial;
       line-height: 20px;
       letter-spacing: normal;
+      margin-bottom: 20px;
     }
 
     .footer a {
@@ -197,10 +191,27 @@
       margin: 0;
       text-decoration: none;
       text-transform: uppercase;
-      mso-padding-alt: 0px;
+      mso-padding-alt: 17px 47px 17px;
     }
 
-    .simple-button td {
+    .simple-button-wrapper table {
+      width: 100%;
+    }
+
+    .simple-button-wrapper {
+      width: 100%;
+    }
+
+    .simple-button {
+      color: #4d7373;
+      text-transform: uppercase;
+      font-size: 15px;
+      font-family: Arial;
+      font-weight: bold;
+      padding-top: 0 !important;
+    }
+
+    a.simple-button>table>tbody>tr>td {
       color: #4d7373;
       text-transform: uppercase;
       font-size: 15px;
@@ -217,39 +228,18 @@
       margin-bottom: 12px;
     }
 
-    .two-col-image-content-colored,
-    .two-col-image-content-colored-outlook {
-      max-width: 600px !important;
-      margin-top: 22px !important;
-      margin-bottom: 22px !important;
-    }
-
-    .two-col-image-content-colored .img-container {
-      position: relative;
-    }
-
-    .two-col-image-content-colored .img-container img {
-      border-radius: 8px;
-      margin-top: -20px;
-    }
-
-    .two-col-image-content-colored.img-left .img-container {
-      float: left;
-    }
-
-    .two-col-image-content-colored.img-left .content-container {
-      float: right;
-    }
-
-    .two-col-image-content-colored.img-right .img-container {
-      float: right;
-    }
-
-    .two-col-image-content-colored.img-right .content-container {
-      float: left;
+    .img-container table tbody tr td {
+      width: 100% !important;
     }
 
     @media screen and (max-width:480px) {
+      .two-col-image-content-colored>table>tbody>tr>td {
+        padding: 0 !important;
+      }
+      .large-spacer,
+      .large-spacer td {
+        height: 80px !important;
+      }
       .sm-mobile-header {
         margin-top: 13px !important;
         display: inline-block !important;
@@ -286,7 +276,7 @@
       .header h2 {
         margin: 0;
         font-size: 14px;
-        line-height: 129%;
+        line-height: 1.29 !important;
         letter-spacing: normal;
       }
       .header .mj-column-per-50 {
@@ -294,6 +284,9 @@
       }
       .footer {
         margin-bottom: 32px !important;
+      }
+      .two-col img {
+        margin-bottom: 7px;
       }
       .two-col .mj-column-per-50 {
         padding-bottom: 45px
@@ -310,15 +303,12 @@
       .two-col-image-content-colored {
         margin-bottom: 0 !important;
         padding-bottom: 0 !important;
-      }
-      .two-col-image-content-colored .img-container img {
-        position: relative !important;
-        top: 0 !important;
-        margin-top: -16px !important;
+        margin-left: 25px !important;
+        margin-right: 25px !important;
       }
       .two-col-image-content-colored .content-container>table>tbody>tr>td {
-        padding-left: 0 !important;
-        padding-right: 0 !important;
+        padding-left: 25px !important;
+        padding-right: 25px !important;
         padding-bottom: 44px !important;
         padding-top: 27px !important;
       }
@@ -330,12 +320,6 @@
       }
       .header {
         margin-top: 61px !important;
-      }
-      .two-col-image-content-colored>table>tbody>tr>td {
-        padding: 0 30px !important;
-      }
-      .two-col-image-content-colored .img-container {
-        height: 0;
       }
     }
   </style>
@@ -690,10 +674,10 @@
                       <td style="font-family: Arial; vertical-align: top; padding: 0;" valign="top">
                         <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="" width="100%">
                           <tr style="font-family: Arial;">
-                            <td align="left" vertical-align="middle" class="red-btn button" style="font-family: Arial; font-size: 0px; padding: 5px 0 0 0; word-break: break-word;">
+                            <td align="left" vertical-align="middle" class="red-btn button" style="font-family: Arial; font-size: 0px; word-break: break-word;">
                               <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:separate;line-height:100%;">
                                 <tr style="font-family: Arial;">
-                                  <td align="center" bgcolor="#c33c3c" role="presentation" style="font-family: Arial; border: none; border-radius: 30px; cursor: auto; mso-padding-alt: 10px 25px; background: #c33c3c;" valign="middle"> <a href="http://google.com" style="display: inline-block; background: #c33c3c; color: white; font-size: 16px; font-weight: 400; line-height: 100%; margin: 0; text-decoration: none; text-transform: uppercase; mso-padding-alt: 0px; border-radius: 30px; padding: 17px 47px 17px; font-family: Arial;"
+                                  <td align="center" bgcolor="#c33c3c" role="presentation" style="font-family: Arial; border: none; border-radius: 30px; cursor: auto; mso-padding-alt: 10px 25px; background: #c33c3c;" valign="middle"> <a href="http://google.com" style="display: inline-block; background: #c33c3c; color: white; font-size: 16px; font-weight: 400; line-height: 100%; margin: 0; text-decoration: none; text-transform: uppercase; border-radius: 30px; padding: 17px 47px 17px; font-family: Arial; mso-padding-alt: 17px 47px 17px;"
                                       target="_blank">
               Lorem ipsum
             </a> </td>
@@ -787,10 +771,10 @@
         <tr>
       
             <td
-               class="" style="vertical-align:top;width:300px;"
+               class="img-container-outlook" style="vertical-align:top;width:300px;"
             >
           <![endif]-->
-              <div class="mj-column-per-50 mj-outlook-group-fix" style="font-family: Arial; font-size: 0px; text-align: left; direction: ltr; display: inline-block; vertical-align: top; width: 100%;">
+              <div class="mj-column-per-50 mj-outlook-group-fix img-container" style="font-family: Arial; font-size: 0px; text-align: left; direction: ltr; display: inline-block; vertical-align: top; width: 100%;">
                 <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
                   <tbody>
                     <tr style="font-family: Arial;">
@@ -832,10 +816,10 @@
                               <div style="font-family: Arial; font-size: 13px; line-height: 1; text-align: left; color: #222222;">
                                 <h2 style="margin-top: 0; font-size: 24px; line-height: 30px; margin-bottom: 15px;">Lorem ipsum dolor ipsum dolor lorem</h2>
                                 <p style="font-family: Arial; margin-bottom: 20px; font-size: 15px; font-weight: normal; font-stretch: normal; font-style: normal; line-height: 24px; letter-spacing: normal; margin-top: 0;">Ma conse omnimaios qui cum natur alitamus ea dus es abo. Tet ut qui dolupta inus pedipient utatur, utata conecus, aut maximolum dunte nis.</p>
-                                <a class="simple-button" href="#" style="font-family: Arial; color: #4d7373; text-decoration: none; font-weight: bold;">
+                                <a class="simple-button" href="#" style="text-decoration: none; color: #4d7373; text-transform: uppercase; font-size: 15px; font-family: Arial; font-weight: bold; padding-top: 0;">
                                   <table>
                                     <tr style="font-family: Arial;">
-                                      <td style="color: #4d7373; text-transform: uppercase; font-size: 15px; font-family: Arial; font-weight: bold; padding-top: 0; padding-right: 6px;"><img align="left" src="https://webston.github.io/b-static/public/images/arrow.png" width="18" style="margin-bottom: 0;"></td>
+                                      <td style="color: #4d7373; text-transform: uppercase; font-size: 15px; font-family: Arial; font-weight: bold; padding-top: 0; padding-right: 6px;" width="21"><img align="left" src="https://webston.github.io/b-static/public/images/arrow.png" width="18" style="margin-bottom: 0;"></td>
                                       <td style="color: #4d7373; text-transform: uppercase; font-size: 15px; font-family: Arial; font-weight: bold; padding-top: 0;">Länktext Lorem</td>
                                     </tr>
                                   </table>
@@ -929,10 +913,10 @@
         <tr>
       
             <td
-               class="" style="vertical-align:top;width:300px;"
+               class="img-container-outlook" style="vertical-align:top;width:300px;"
             >
           <![endif]-->
-              <div class="mj-column-per-50 mj-outlook-group-fix" style="font-family: Arial; font-size: 0px; text-align: left; direction: ltr; display: inline-block; vertical-align: top; width: 100%;">
+              <div class="mj-column-per-50 mj-outlook-group-fix img-container" style="font-family: Arial; font-size: 0px; text-align: left; direction: ltr; display: inline-block; vertical-align: top; width: 100%;">
                 <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
                   <tbody>
                     <tr style="font-family: Arial;">
@@ -974,10 +958,10 @@
                               <div style="font-family: Arial; font-size: 13px; line-height: 1; text-align: left; color: #222222;">
                                 <h2 style="margin-top: 0; font-size: 24px; line-height: 30px; margin-bottom: 15px;">Lorem ipsum dolor ipsum dolor</h2>
                                 <p style="font-family: Arial; margin-bottom: 20px; font-size: 15px; font-weight: normal; font-stretch: normal; font-style: normal; line-height: 24px; letter-spacing: normal; margin-top: 0;">Ma conse omnimaios qui cum natur alitamus ea dus es abo. Tet ut qui dolupta inus pedipient utatur, utata conecus, aut maximolum dunte nis.</p>
-                                <a class="simple-button" href="#" style="font-family: Arial; color: #4d7373; text-decoration: none; font-weight: bold;">
+                                <a class="simple-button" href="#" style="text-decoration: none; color: #4d7373; text-transform: uppercase; font-size: 15px; font-family: Arial; font-weight: bold; padding-top: 0;">
                                   <table>
                                     <tr style="font-family: Arial;">
-                                      <td style="color: #4d7373; text-transform: uppercase; font-size: 15px; font-family: Arial; font-weight: bold; padding-right: 6px; padding-top: 0;"><img align="left" src="https://webston.github.io/b-static/public/images/arrow.png" width="18" style="margin-bottom: 0;"></td>
+                                      <td style="color: #4d7373; text-transform: uppercase; font-size: 15px; font-family: Arial; font-weight: bold; padding-right: 6px; padding-top: 0;" width="21"><img align="left" src="https://webston.github.io/b-static/public/images/arrow.png" width="18" style="margin-bottom: 0;"></td>
                                       <td style="color: #4d7373; text-transform: uppercase; font-size: 15px; font-family: Arial; font-weight: bold; padding-top: 0;">Länktext Lorem</td>
                                     </tr>
                                   </table>
@@ -1060,21 +1044,21 @@
         <tr>
           <td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;">
       <![endif]-->
-    <div class="content section two-col-image-content-colored img-left" style="font-family: Arial; background: #ebf3f3; background-color: #ebf3f3; margin: 0px auto; border-radius: 8px; max-width: 600px; margin-top: 22px; margin-bottom: 22px;">
-      <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#ebf3f3;background-color:#ebf3f3;width:100%;border-radius:8px;">
+    <div class="content section two-col-image-content-colored img-left" style="font-family: Arial; background: #ebf3f3; background-color: #ebf3f3; margin: 0px auto; max-width: 600px;">
+      <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#ebf3f3;background-color:#ebf3f3;width:100%;">
         <tbody>
           <tr style="font-family: Arial;">
-            <td style="font-family: Arial; direction: ltr; font-size: 0px; padding: 0; padding-left: 25px; padding-right: 25px; text-align: center;" align="center">
+            <td style="font-family: Arial; direction: ltr; font-size: 0px; padding: 0; padding-left: 0; padding-right: 0; text-align: center;" align="center">
               <!--[if mso | IE]>
                   <table role="presentation" border="0" cellpadding="0" cellspacing="0">
                 
         <tr>
       
             <td
-               class="img-container-outlook" style="vertical-align:top;width:333px;"
+               class="img-container-outlook" style="vertical-align:top;width:325px;"
             >
           <![endif]-->
-              <div class="mj-column-per-55-5 mj-outlook-group-fix img-container" style="font-family: Arial; position: relative; float: left; font-size: 0px; text-align: left; direction: ltr; display: inline-block; vertical-align: top; width: 100%;">
+              <div class="mj-column-per-50 mj-outlook-group-fix img-container" style="font-family: Arial; font-size: 0px; text-align: left; direction: ltr; display: inline-block; vertical-align: top; width: 100%;">
                 <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
                   <tbody>
                     <tr style="font-family: Arial;">
@@ -1085,8 +1069,8 @@
                               <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;">
                                 <tbody>
                                   <tr style="font-family: Arial;">
-                                    <td style="font-family: Arial; width: 333px;" width="333"> <img height="auto" src="https://mktdplp102neda.azureedge.net/org-28b9cbbc793e49e98cb866765865cecb/084cc2e6-de61-ea11-a811-000d3ab11e51/s-iUEx9bjVfaXRqNJFd2wbxnSkB56b8pnaYJqNyxoJc!" style="border-radius: 8px; margin-top: -20px; border: 0; display: block; outline: none; text-decoration: none; height: auto; width: 100%; font-size: 13px;"
-                                        width="333"> </td>
+                                    <td style="font-family: Arial; width: 325px;" width="325"> <img height="auto" src="https://mktdplp102neda.azureedge.net/org-28b9cbbc793e49e98cb866765865cecb/084cc2e6-de61-ea11-a811-000d3ab11e51/s-iUEx9bjVfaXRqNJFd2wbxnSkB56b8pnaYJqNyxoJc!" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;"
+                                        width="325"> </td>
                                   </tr>
                                 </tbody>
                               </table>
@@ -1102,24 +1086,24 @@
             </td>
           
             <td
-               align="right" class="content-container-outlook" style="vertical-align:top;width:267px;"
+               align="right" class="content-container-outlook" style="vertical-align:top;width:325px;"
             >
           <![endif]-->
-              <div class="mj-column-per-44-5 mj-outlook-group-fix content-container" style="font-family: Arial; float: right; font-size: 0px; text-align: left; direction: ltr; display: inline-block; vertical-align: top; width: 100%;">
+              <div class="mj-column-per-50 mj-outlook-group-fix content-container" style="font-family: Arial; font-size: 0px; text-align: left; direction: ltr; display: inline-block; vertical-align: top; width: 100%;">
                 <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
                   <tbody>
                     <tr style="font-family: Arial;">
-                      <td style="font-family: Arial; border: 0; vertical-align: top; padding: 46px 0 52px 30px;" valign="top">
+                      <td style="font-family: Arial; border: 0; vertical-align: top; padding: 61px 45px;" valign="top">
                         <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="" width="100%">
                           <tr style="font-family: Arial;">
                             <td align="left" style="font-family: Arial; font-size: 0px; padding: 0; word-break: break-word;">
                               <div style="font-family: Arial; font-size: 13px; line-height: 1; text-align: left; color: #222222;">
                                 <h2 style="margin-top: 0; font-size: 24px; line-height: 30px; margin-bottom: 15px;">Lorem ipsum dolor ipsum dolor</h2>
-                                <p style="font-family: Arial; margin-bottom: 20px; font-size: 15px; font-weight: normal; font-stretch: normal; font-style: normal; line-height: 24px; letter-spacing: normal; margin-top: 0;">Ma conse omnimaios qui cum natur alitamus ea dus es abo.</p>
-                                <a class="simple-button" href="#" style="font-family: Arial; color: #4d7373; text-decoration: none; font-weight: bold;">
+                                <p margin-bottom="25px" style="font-family: Arial; font-size: 15px; font-weight: normal; font-stretch: normal; font-style: normal; line-height: 24px; letter-spacing: normal; margin-bottom: 25px; margin-top: 0;">Ma conse omnimaios qui cum natur alitamus ea dus es abo.</p>
+                                <a class="simple-button" href="#" style="text-decoration: none; color: #4d7373; text-transform: uppercase; font-size: 15px; font-family: Arial; font-weight: bold; padding-top: 0;">
                                   <table>
                                     <tr style="font-family: Arial;">
-                                      <td style="color: #4d7373; text-transform: uppercase; font-size: 15px; font-family: Arial; font-weight: bold; padding-right: 6px; padding-top: 0;"><img align="left" src="https://webston.github.io/b-static/public/images/arrow.png" width="18" style="margin-bottom: 0;"></td>
+                                      <td style="color: #4d7373; text-transform: uppercase; font-size: 15px; font-family: Arial; font-weight: bold; padding-right: 6px; padding-top: 0;" width="21"><img align="left" src="https://webston.github.io/b-static/public/images/arrow.png" width="18" style="margin-bottom: 0;"></td>
                                       <td style="color: #4d7373; text-transform: uppercase; font-size: 15px; font-family: Arial; font-weight: bold; padding-top: 0;">Länktext Lorem</td>
                                     </tr>
                                   </table>
@@ -1202,21 +1186,21 @@
         <tr>
           <td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;">
       <![endif]-->
-    <div class="content section two-col-image-content-colored img-right" style="font-family: Arial; background: #ebf3f3; background-color: #ebf3f3; margin: 0px auto; border-radius: 8px; max-width: 600px; margin-top: 22px; margin-bottom: 22px;">
-      <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#ebf3f3;background-color:#ebf3f3;width:100%;border-radius:8px;">
+    <div class="content section two-col-image-content-colored img-right" style="font-family: Arial; background: #ebf3f3; background-color: #ebf3f3; margin: 0px auto; max-width: 600px;">
+      <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#ebf3f3;background-color:#ebf3f3;width:100%;">
         <tbody>
           <tr style="font-family: Arial;">
-            <td style="font-family: Arial; direction: rtl; font-size: 0px; padding: 0; padding-left: 25px; padding-right: 25px; text-align: center;" align="center">
+            <td style="font-family: Arial; direction: rtl; font-size: 0px; padding: 0; padding-left: 0; padding-right: 0; text-align: center;" align="center">
               <!--[if mso | IE]>
                   <table role="presentation" border="0" cellpadding="0" cellspacing="0">
                 
         <tr>
       
             <td
-               align="right" class="img-container-outlook" style="vertical-align:top;width:333px;"
+               align="right" class="img-container-outlook" style="vertical-align:top;width:325px;"
             >
           <![endif]-->
-              <div class="mj-column-per-55-5 mj-outlook-group-fix img-container" style="font-family: Arial; position: relative; float: right; font-size: 0px; text-align: left; direction: ltr; display: inline-block; vertical-align: top; width: 100%;">
+              <div class="mj-column-per-50 mj-outlook-group-fix img-container" style="font-family: Arial; font-size: 0px; text-align: left; direction: ltr; display: inline-block; vertical-align: top; width: 100%;">
                 <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
                   <tbody>
                     <tr style="font-family: Arial;">
@@ -1227,8 +1211,8 @@
                               <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;">
                                 <tbody>
                                   <tr style="font-family: Arial;">
-                                    <td style="font-family: Arial; width: 333px;" width="333"> <img height="auto" src="https://mktdplp102neda.azureedge.net/org-28b9cbbc793e49e98cb866765865cecb/084cc2e6-de61-ea11-a811-000d3ab11e51/s-iUEx9bjVfaXRqNJFd2wbxnSkB56b8pnaYJqNyxoJc!" style="border-radius: 8px; margin-top: -20px; border: 0; display: block; outline: none; text-decoration: none; height: auto; width: 100%; font-size: 13px;"
-                                        width="333"> </td>
+                                    <td style="font-family: Arial; width: 325px;" width="325"> <img height="auto" src="https://mktdplp102neda.azureedge.net/org-28b9cbbc793e49e98cb866765865cecb/084cc2e6-de61-ea11-a811-000d3ab11e51/s-iUEx9bjVfaXRqNJFd2wbxnSkB56b8pnaYJqNyxoJc!" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;"
+                                        width="325"> </td>
                                   </tr>
                                 </tbody>
                               </table>
@@ -1244,24 +1228,24 @@
             </td>
           
             <td
-               class="content-container-outlook" style="vertical-align:top;width:267px;"
+               class="content-container-outlook" style="vertical-align:top;width:325px;"
             >
           <![endif]-->
-              <div class="mj-column-per-44-5 mj-outlook-group-fix content-container" style="font-family: Arial; float: left; font-size: 0px; text-align: left; direction: ltr; display: inline-block; vertical-align: top; width: 100%;">
+              <div class="mj-column-per-50 mj-outlook-group-fix content-container" style="font-family: Arial; font-size: 0px; text-align: left; direction: ltr; display: inline-block; vertical-align: top; width: 100%;">
                 <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
                   <tbody>
                     <tr style="font-family: Arial;">
-                      <td style="font-family: Arial; vertical-align: top; padding: 46px 30px 52px 0;" valign="top">
+                      <td style="font-family: Arial; vertical-align: top; padding: 61px 45px;" valign="top">
                         <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="" width="100%">
                           <tr style="font-family: Arial;">
                             <td align="left" style="font-family: Arial; font-size: 0px; padding: 0; word-break: break-word;">
                               <div style="font-family: Arial; font-size: 13px; line-height: 1; text-align: left; color: #222222;">
                                 <h2 style="margin-top: 0; font-size: 24px; line-height: 30px; margin-bottom: 15px;">Lorem ipsum dolor ipsum dolor</h2>
-                                <p style="font-family: Arial; margin-bottom: 20px; font-size: 15px; font-weight: normal; font-stretch: normal; font-style: normal; line-height: 24px; letter-spacing: normal; margin-top: 0;">Ma conse omnimaios qui cum natur alitamus ea dus es abo.</p>
-                                <a class="simple-button" href="#" style="font-family: Arial; color: #4d7373; text-decoration: none; font-weight: bold;">
+                                <p style="font-family: Arial; font-size: 15px; font-weight: normal; font-stretch: normal; font-style: normal; line-height: 24px; letter-spacing: normal; margin-bottom: 25px; margin-top: 0;">Ma conse omnimaios qui cum natur alitamus ea dus es abo.</p>
+                                <a class="simple-button" href="#" style="text-decoration: none; color: #4d7373; text-transform: uppercase; font-size: 15px; font-family: Arial; font-weight: bold; padding-top: 0;">
                                   <table>
                                     <tr style="font-family: Arial;">
-                                      <td style="color: #4d7373; text-transform: uppercase; font-size: 15px; font-family: Arial; font-weight: bold; padding-right: 6px; padding-top: 0;"><img align="left" src="https://webston.github.io/b-static/public/images/arrow.png" width="18" style="margin-bottom: 0;"></td>
+                                      <td style="color: #4d7373; text-transform: uppercase; font-size: 15px; font-family: Arial; font-weight: bold; padding-right: 6px; padding-top: 0;" width="21"><img align="left" src="https://webston.github.io/b-static/public/images/arrow.png" width="18" style="margin-bottom: 0;"></td>
                                       <td style="color: #4d7373; text-transform: uppercase; font-size: 15px; font-family: Arial; font-weight: bold; padding-top: 0;">Länktext Lorem</td>
                                     </tr>
                                   </table>
@@ -1479,10 +1463,10 @@
                           <tr style="font-family: Arial;">
                             <td align="left" style="font-family: Arial; font-size: 0px; padding: 0; word-break: break-word;">
                               <div style="font-family: Arial; font-size: 13px; line-height: 1; text-align: left; color: #222222;">
-                                <a class="simple-button" href="#" style="font-family: Arial; color: #4d7373; text-decoration: none; font-weight: bold;">
+                                <a class="simple-button" href="#" style="text-decoration: none; color: #4d7373; text-transform: uppercase; font-size: 15px; font-family: Arial; font-weight: bold; padding-top: 0;">
                                   <table>
                                     <tr style="font-family: Arial;">
-                                      <td style="color: #4d7373; text-transform: uppercase; font-size: 15px; font-family: Arial; font-weight: bold; padding-right: 6px; padding-top: 0;"><img align="left" src="https://webston.github.io/b-static/public/images/arrow.png" width="18" style="margin-bottom: 0;"></td>
+                                      <td style="color: #4d7373; text-transform: uppercase; font-size: 15px; font-family: Arial; font-weight: bold; padding-right: 6px; padding-top: 0;" width="21"><img align="left" src="https://webston.github.io/b-static/public/images/arrow.png" width="18" style="margin-bottom: 0;"></td>
                                       <td style="color: #4d7373; text-transform: uppercase; font-size: 15px; font-family: Arial; font-weight: bold; padding-top: 0;">Länktext Lorem</td>
                                     </tr>
                                   </table>
@@ -1586,7 +1570,7 @@
                       <td style="font-family: Arial; vertical-align: top; padding: 0; padding-right: 30px;" valign="top">
                         <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="" width="100%">
                           <tr style="font-family: Arial;">
-                            <td align="left" style="font-family: Arial; font-size: 0px; padding: 0; padding-bottom: 19px; word-break: break-word;">
+                            <td align="left" class="img-container" style="font-family: Arial; font-size: 0px; padding: 0; padding-bottom: 19px; word-break: break-word;">
                               <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;">
                                 <tbody>
                                   <tr style="font-family: Arial;">
@@ -1602,10 +1586,10 @@
                               <div style="font-family: Arial; font-size: 13px; line-height: 1; text-align: left; color: #222222;">
                                 <h2 style="margin-top: 0; font-size: 24px; line-height: 30px; margin-bottom: 12px;">Lorem ipsum dolor ipsum dolor</h2>
                                 <p style="font-family: Arial; margin-bottom: 20px; font-size: 15px; font-weight: normal; font-stretch: normal; font-style: normal; line-height: 24px; letter-spacing: normal; margin-top: 0;">Ma conse omnimaios qui cum natur alitamus ea dus es abo. Tet ut qui dolupta inus pedipient utatur, utata conecus, aut maximolum dunte nis.</p>
-                                <a class="simple-button" href="#" style="font-family: Arial; color: #4d7373; text-decoration: none; font-weight: bold;">
+                                <a class="simple-button" href="#" style="text-decoration: none; color: #4d7373; text-transform: uppercase; font-size: 15px; font-family: Arial; font-weight: bold; padding-top: 0;">
                                   <table>
                                     <tr style="font-family: Arial;">
-                                      <td style="color: #4d7373; text-transform: uppercase; font-size: 15px; font-family: Arial; font-weight: bold; padding-right: 6px; padding-top: 0;"><img align="left" src="https://webston.github.io/b-static/public/images/arrow.png" width="18" style="margin-bottom: 0;"></td>
+                                      <td style="color: #4d7373; text-transform: uppercase; font-size: 15px; font-family: Arial; font-weight: bold; padding-right: 6px; padding-top: 0;" width="21"><img align="left" src="https://webston.github.io/b-static/public/images/arrow.png" width="18" style="margin-bottom: 0;"></td>
                                       <td style="color: #4d7373; text-transform: uppercase; font-size: 15px; font-family: Arial; font-weight: bold; padding-top: 0;">Länktext Lorem</td>
                                     </tr>
                                   </table>
@@ -1633,7 +1617,7 @@
                       <td style="font-family: Arial; vertical-align: top; padding: 0; padding-left: 30px;" valign="top">
                         <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="" width="100%">
                           <tr style="font-family: Arial;">
-                            <td align="left" style="font-family: Arial; font-size: 0px; padding: 0; padding-bottom: 19px; word-break: break-word;">
+                            <td align="left" class="img-container" style="font-family: Arial; font-size: 0px; padding: 0; padding-bottom: 19px; word-break: break-word;">
                               <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;">
                                 <tbody>
                                   <tr style="font-family: Arial;">
@@ -1649,14 +1633,12 @@
                               <div style="font-family: Arial; font-size: 13px; line-height: 1; text-align: left; color: #222222;">
                                 <h2 style="margin-top: 0; font-size: 24px; line-height: 30px; margin-bottom: 12px;">Lorem ipsum dolor ipsum dolor</h2>
                                 <p style="font-family: Arial; margin-bottom: 20px; font-size: 15px; font-weight: normal; font-stretch: normal; font-style: normal; line-height: 24px; letter-spacing: normal; margin-top: 0;">Ma conse omnimaios qui cum natur alitamus ea dus es abo. Tet ut qui dolupta inus pedipient utatur, utata conecus, aut maximolum dunte nis.</p>
-                                <a class="simple-button" href="#" style="font-family: Arial; color: #4d7373; text-decoration: none; font-weight: bold;">
-                                  <table>
-                                    <tr style="font-family: Arial;">
-                                      <td style="color: #4d7373; text-transform: uppercase; font-size: 15px; font-family: Arial; font-weight: bold; padding-right: 6px; padding-top: 0;"><img align="left" src="https://webston.github.io/b-static/public/images/arrow.png" width="18" style="margin-bottom: 0;"></td>
-                                      <td style="color: #4d7373; text-transform: uppercase; font-size: 15px; font-family: Arial; font-weight: bold; padding-top: 0;">Länktext Lorem</td>
-                                    </tr>
-                                  </table>
-                                </a>
+                                <table>
+                                  <tr style="font-family: Arial;">
+                                    <td style="font-family: Arial; padding-right: 6px;" width="21"><img align="left" src="https://webston.github.io/b-static/public/images/arrow.png" width="18"></td>
+                                    <td style="font-family: Arial;"><a class="simple-button" href="#" style="text-decoration: none; color: #4d7373; text-transform: uppercase; font-size: 15px; font-family: Arial; font-weight: bold; padding-top: 0;">Länktext Lorem</a></td>
+                                  </tr>
+                                </table>
                               </div>
                             </td>
                           </tr>
