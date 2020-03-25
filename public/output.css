@@ -1297,7 +1297,7 @@ a img {
   transition: all 0.3s;
   font-size: 1rem;
   text-transform: uppercase;
-  box-shadow: 0 0 0 0;
+  box-shadow: none;
   min-width: 228px;
   text-align: center;
   line-height: normal;
