@@ -240,6 +240,12 @@
       width: 100% !important;
     }
 
+    @media (prefers-color-scheme: dark) {
+      .bubble-wrapper img {
+        display: none;
+      }
+    }
+
     @media screen and (max-width:480px) {
       .two-col-image-content-colored>table>tbody>tr>td {
         padding: 0 !important;
@@ -328,6 +334,12 @@
       }
       .header {
         margin-top: 61px !important;
+      }
+    }
+
+    @media screen and (max-width: 680px) {
+      .bubble-wrapper td {
+        text-align: left !important;
       }
     }
   </style>
